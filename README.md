@@ -26,6 +26,24 @@ A feature-rich Flutter quiz application with Firebase integration, Riverpod stat
 - **Dependency Injection**: Riverpod providers
 - **UI**: Custom animations and responsive design
 
+### Project Structure
+```
+lib/
+  core/
+    constants/
+    utils/
+    widgets/
+  features/
+    auth/              # auth data, providers, views, guards
+    home/              # home screen providers & view
+    profile/           # profile screen view
+    quiz/              # quiz data/models/repos/providers/views
+    splash/            # animated splash, widgets, providers
+  firebase_options.dart
+  main.dart            # app entry
+  router.dart          # routes with go_router
+```
+
 ### 🔧 Installation Steps
 
 1. **Clone the repository**
@@ -44,3 +62,12 @@ flutter pub get
 ```bash
 flutter run
 ```
+
+
+
+
+
+
+
+
+
